@@ -2,23 +2,23 @@
 
 ## Objetivo
 
-    El propósito de este proyecto es realizar un análisis detallado de la oferta de coches de segunda mano en la plataforma Wallapop, centrándose en variables clave como el precio, la marca, el modelo, el kilometraje, el tipo de motor, entre otros atributos relevantes. Adicionalmente, se llevará a cabo una prueba de hipótesis para determinar si existe una diferencia significativa en los precios entre los coches con la etiqueta flag_bumped (destacado) y aquellos que no la tienen, y se aplicarán modelos de aprendizaje automático para analizar la importancia de las diferentes características en las predicciones, para luego poder realizaar algunas sugerencias para la mejorar de la funcion Wallapop Pro .
+El propósito de este proyecto es realizar un análisis detallado de la oferta de coches de segunda mano en la plataforma Wallapop, centrándose en variables clave como el precio, la marca, el modelo, el kilometraje, el tipo de motor, entre otros atributos relevantes. Adicionalmente, se llevará a cabo una prueba de hipótesis para determinar si existe una diferencia significativa en los precios entre los coches con la etiqueta flag_bumped (destacado) y aquellos que no la tienen, y se aplicarán modelos de aprendizaje automático para analizar la importancia de las diferentes características en las predicciones, para luego poder realizaar algunas sugerencias para la mejorar de la funcion Wallapop Pro .
 
 ## Datos
-    El conjunto de datos utilizado en este estudio contiene información detallada sobre más de 100,000 publicaciones de coches de segunda mano en Wallapop. Las variables consideradas para el análisis incluyen:
 
-    .Precio (price): Precio del vehículo.
-    .Marca (brand): Marca del vehículo.
-    .Modelo (model): Modelo específico del vehículo.
-    .Kilometraje (km): Distancia recorrida por el vehículo en kilómetros.
-    .Tipo de motor (engine): Tipo de motor (gasolina, diésel, eléctrico, etc.).
-    .Tipo de caja de cambios (gearbox): Transmisión del vehículo (manual o automática).
-    .Ubicación (location.city, location.postal_code, location.province): Ciudad, código postal y provincia donde se encuentra el vehículo.
-    .Segmento de marca (gama_marca): Segmento al que pertenece la marca (por ejemplo, premium, estándar).
-    .Segmento de precio (gama_precio): Categoría de precio del vehículo.
-    .Año de fabricación (year): Año en que fue fabricado el vehículo.
-    .Potencia (horsepower): Potencia del vehículo en caballos de fuerza.
-    .Indicador de anuncio destacado (flag_bumped): Indicador que señala si el anuncio ha sido destacado  para aumentar su visibilidad.
+ El conjunto de datos utilizado en este estudio contiene información detallada sobre más de 100,000 publicaciones de coches de segunda mano en Wallapop. Las variables consideradas para el análisis incluyen:
+
+.Precio (price): Precio del vehículo.
+.Marca (brand): Marca del vehículo.
+.Modelo (model): Modelo específico del vehículo.
+.Kilometraje (km): Distancia recorrida por el vehículo en kilómetros.
+.Tipo de motor (engine): Tipo de motor (gasolina, diésel, eléctrico, etc.).
+.Tipo de caja de cambios (gearbox): Transmisión del vehículo (manual o automática).
+.Ubicación (location.city, location.postal_code, location.province): Ciudad, código postal y provincia donde se encuentra el vehículo.
+.Segmento de marca (gama_marca): Segmento al que pertenece la marca (por ejemplo, premium, estándar)..Segmento de precio (gama_precio): Categoría de precio del vehículo.
+.Año de fabricación (year): Año en que fue fabricado el vehículo.
+.Potencia (horsepower): Potencia del vehículo en caballos de fuerza.
+.Indicador de anuncio destacado (flag_bumped): Indicador que señala si el anuncio ha sido destacado  para aumentar su visibilidad.
 
 
 -
