@@ -44,25 +44,27 @@ Las variables consideradas para el análisis incluyen:
 Para obtener una comprensión más profunda de la oferta de coches de segunda mano en Wallapop, he realizado un análisis descriptivo de las principales variables incluidas en el conjunto de datos.
 Precio: He examinado la distribución de los precios para identificar la media, la mediana y la dispersión de los precios de los coches. Con este análisis he podido encontrar patrones de precios según el segmento de mercado, la antigüedad del vehículo, el precio y otros factores relevantes.
 
-Kilometraje: He analizado la distribución del kilometraje de los vehículos en venta, lo que permitió comprender mejor la relación entre el kilometraje y el precio, así como la distribución general de esta variable entre los diferentes tipos de vehículos.
+- Kilometraje: He analizado la distribución del kilometraje de los vehículos en venta, lo que permitió comprender mejor la relación entre el kilometraje y el precio, así como la distribución general de esta variable entre los diferentes tipos de vehículos.
 
-Año de Fabricación: He podido ver cómo la antigüedad del vehículo (año de fabricación) afecta el precio y la demanda. Este análisis ayuda a comprender la depreciación del valor de los coches con el paso del tiempo.
+- Año de Fabricación: He podido ver cómo la antigüedad del vehículo (año de fabricación) afecta el precio y la demanda. Este análisis ayuda a comprender la depreciación del valor de los coches con el paso del tiempo.
 
-Potencia (Horsepower): He evaluado la distribución de la potencia de los vehículos en venta y su relación con el precio, identificando si existe una preferencia por vehículos con mayor o menor potencia.
+- Potencia (Horsepower): He evaluado la distribución de la potencia de los vehículos en venta y su relación con el precio, identificando si existe una preferencia por vehículos con mayor o menor potencia.
 
-Tipo de Motor: He analizado la proporción de vehículos con diferentes tipos de motores (gasolina, diésel, eléctrico, etc.) y cómo esta variable impacta el precio y la preferencia de los compradores.
+- Tipo de Motor: He analizado la proporción de vehículos con diferentes tipos de motores (gasolina, diésel, eléctrico, etc.) y cómo esta variable impacta el precio y la preferencia de los compradores.
 
-Tipo de Caja de Cambios: He examinado la preferencia por vehículos con transmisión manual frente a automática y cómo esta elección influye en el precio y la demanda.
+- Tipo de Caja de Cambios: He examinado la preferencia por vehículos con transmisión manual frente a automática y cómo esta elección influye en el precio y la demanda.
 
-Marca y Modelo: He explorado la frecuencia de las diferentes marcas y modelos presentes en la plataforma, ayudando a identificar las marcas y modelos más populares y su comparación en términos de precio, kilometraje y antigüedad.
+- Marca y Modelo: He explorado la frecuencia de las diferentes marcas y modelos presentes en la plataforma, ayudando a identificar las marcas y modelos más populares y su comparación en términos de precio, kilometraje y antigüedad.
 
-Segmento de Marca y Segmento de Precio: He analizado los segmentos de marca y de precio para entender cómo se agrupan los vehículos en categorías específicas y cómo estas categorías afectan el comportamiento del mercado.
+- Segmento de Marca y Segmento de Precio: He analizado los segmentos de marca y de precio para entender cómo se agrupan los vehículos en categorías específicas y cómo estas categorías afectan el comportamiento del mercado.
 Este análisis descriptivo proporciona una visión general del estado del mercado de coches de segunda mano en Wallapop, permitiendo identificar tendencias claves y preferencias de los consumidores.
 
 ### Análisis de correlación
 El precio de un automóvil está fuertemente correlacionado por el año de fabricación y el kilometraje. Los autos más nuevos y con menor kilometraje tienden a tener precios más altos. Además, hay una correlación positiva entre el precio y la potencia del motor.
+
 La evaluación entre el kilometraje y el año de fabricación es significativa y negativa, lo que quiere decir, en general, los automóviles más nuevos tienden a tener un menor kilometraje. Estos patrones son coherentes con lo que se espera en el mercado automotriz, donde la antigüedad, el desgaste y la potencia son factores clave en la determinación del valor de un vehículo.
-Análisis del indicador de destacados (flag_bumped)
+
+## Análisis del indicador de destacados (flag_bumped)
 En Wallapop, flag_bumped es un indicador que señala si un anuncio ha sido destacado. Esto significa que el anuncio ha sido actualizado para volver a aparecer en la parte superior de los resultados de búsqueda, lo que incrementa su visibilidad ante los potenciales compradores. 
 Este indicador se activa cuando el usuario decide renovar su anuncio, a través de un plan Premium (Wallapop Pro), o pagando solo por destacar el anuncio dependiendo de cuantos días (7,15,30 días) y en qué lugar (zona, ciudad, país)
 Porcentaje de bandera anuncios destacados (flag_bumped)
@@ -98,22 +100,23 @@ He utilizado diferentes modelos de clasificación con regresión logística, inc
 ## Conclusiones:
 
 ### Conclusiones generales de las Variables
-La media del precio es de 14.400 unidades, con una concentración significativa entre 8.500 y 19.500
 
-En cuanto a la correlación, podemos decir que el precio de los automóviles aumenta cuando sea más nuevo, menos kilómetros tenga y tenga mas potencia.
+- La media del precio es de 14.400 unidades, con una concentración significativa entre 8.500 y 19.500
 
-Las cajas de cambios manuales son mucho más comunes que las automáticas, pero los coches con transmisión automática tienden a ser más caros.
+- En cuanto a la correlación, podemos decir que el precio de los automóviles aumenta cuando sea más nuevo, menos kilómetros tenga y tenga mas potencia.
 
-El motor más común es el diésel, seguido por el de gasolina, y, por último, los eléctricos y otros tipos. En cuanto al precio, los motores eléctricos y otros son los más caros, mientras que los motores de gasolina y especialmente los de diésel son más baratos. 
+- Las cajas de cambios manuales son mucho más comunes que las automáticas, pero los coches con transmisión automática tienden a ser más caros.
+
+- El motor más común es el diésel, seguido por el de gasolina, y, por último, los eléctricos y otros tipos. En cuanto al precio, los motores eléctricos y otros son los más caros, mientras que los motores de gasolina y especialmente los de diésel son más baratos. 
 Los coches con transmisión automática tienden a tener motores eléctricos.
 
-La cantidad de oferta de coches segunda mano, está en Madrid, Barelona y la costa en general.
+- La cantidad de oferta de coches segunda mano, está en Madrid, Barelona y la costa en general.
 
-En cuanto a maras, podemos observar que las marcas más caras son las de gana de lujo (Ferrari, Lamborghini, Porsche, etc.), pero en cuanto a la cantidad de vehículos, las marcas más ofertadas son Volkswagen, Peugeot, bum, Mercedes, respectivamente, lo cual es interesante ya que las primeras marcas excepto Peugeot son marca considerada como gama Premium.
+- En cuanto a maras, podemos observar que las marcas más caras son las de gana de lujo (Ferrari, Lamborghini, Porsche, etc.), pero en cuanto a la cantidad de vehículos, las marcas más ofertadas son Volkswagen, Peugeot, bum, Mercedes, respectivamente, lo cual es interesante ya que las primeras marcas excepto Peugeot son marca considerada como gama Premium.
 
-En cuanto a la gama de marcas, puedo decir que la mayoría de las ofertas son de coches de gama ¨estándar¨ y gama ¨Premium¨. 
+- En cuanto a la gama de marcas, puedo decir que la mayoría de las ofertas son de coches de gama ¨estándar¨ y gama ¨Premium¨. 
 
-La mayoría de los vehículos de la gama ¨estándar¨ con precios elevevados son vehículos con pocos años, y motores eléctricos, además de furgonetas. 
+- La mayoría de los vehículos de la gama ¨estándar¨ con precios elevevados son vehículos con pocos años, y motores eléctricos, además de furgonetas. 
 
 ### Conclusiones Basadas en las Gamas como Segmentación
 
@@ -128,30 +131,34 @@ Como conclusión puedo decir que en general, el efecto del flag_bumped en los pr
 ### Conclusiones del modelo
 
 El modelo Random Forest con SMOTE ha mostrado un buen rendimiento en términos de precisión y recuperación, manejando bien el desequilibrio en las clases.
+
 La validación cruzada confirma la robustez del modelo, con un rendimiento estable a través de distintos conjuntos de datos.
+
 La importancia de las características sugiere que "location.postal_code", "km", y "price" son los atributos más importantes para el modelo. Esto implica que la ubicación, el kilometraje y el precio del vehículo son los factores más determinantes en la predicción. Otras características como "ubicación.ciudad", "modelo" y "caballos de fuerza" también tienen importancia, aunque en menor medida.
 
 ## Sugerencias
 
 ### Wallapop
-Alertas Personalizadas: Envía notificaciones personalizadas cuando los anuncios de los usuarios están perdiendo visibilidad o cuando hay un aumento en la demanda de coches similares en su área.
 
-Sistema de Puntos o Recompensas: Implementa un sistema de puntos o recompensas donde los usuarios ganan puntos por destacar anuncios o realizar otras acciones en la plataforma. Estos puntos pueden canjearse por descuentos en futuros anuncios destacados.
+- Alertas Personalizadas: Envía notificaciones personalizadas cuando los anuncios de los usuarios están perdiendo visibilidad o cuando hay un aumento en la demanda de coches similares en su área.
 
-Mostrar Impacto en Visibilidad y Ventas: Utiliza estadísticas claras en la plataforma para mostrar cómo los anuncios destacados mejoran la visibilidad y las tasas de venta. Por ejemplo, mostrar datos como “Los anuncios destacados se ven X veces más que los no destacados.”
+- Sistema de Puntos o Recompensas: Implementa un sistema de puntos o recompensas donde los usuarios ganan puntos por destacar anuncios o realizar otras acciones en la plataforma. Estos puntos pueden canjearse por descuentos en futuros anuncios destacados.
 
-Casos de Éxito: Comparte historias de éxito de otros usuarios que vendieron sus coches rápidamente usando anuncios destacados. Esto puede motivar a otros a invertir en la destacación de sus anuncios.
+- Mostrar Impacto en Visibilidad y Ventas: Utiliza estadísticas claras en la plataforma para mostrar cómo los anuncios destacados mejoran la visibilidad y las tasas de venta. Por ejemplo, mostrar datos como “Los anuncios destacados se ven X veces más que los no destacados.”
+
+- Casos de Éxito: Comparte historias de éxito de otros usuarios que vendieron sus coches rápidamente usando anuncios destacados. Esto puede motivar a otros a invertir en la destacación de sus anuncios.
 
 ### Wallapop PRO.
-Segmentación por Ubicación: Identifica concesionarios en zonas con alta competencia o demanda y ofrece promociones o descuentos en Wallapop PRO, destacando cómo pueden mejorar su visibilidad en mercados competitivos.
 
-Análisis y Optimización de Precios: Ofrece a los concesionarios informes personalizados y herramientas dentro de Wallapop PRO para ajustar estrategias de venta basadas en tendencias de precios y características específicas de los coches en su área. Incluye algoritmos que recomienden rangos de precios óptimos para maximizar ventas, aprovechando el historial de datos para destacar anuncios de manera más efectiva.
+- Segmentación por Ubicación: Identifica concesionarios en zonas con alta competencia o demanda y ofrece promociones o descuentos en Wallapop PRO, destacando cómo pueden mejorar su visibilidad en mercados competitivos.
 
-Casos de Éxito Localizados: Comparte casos de éxito de concesionarios similares que han mejorado sus ventas con Wallapop PRO.
+- Análisis y Optimización de Precios: Ofrece a los concesionarios informes personalizados y herramientas dentro de Wallapop PRO para ajustar estrategias de venta basadas en tendencias de precios y características específicas de los coches en su área. Incluye algoritmos que recomienden rangos de precios óptimos para maximizar ventas, aprovechando el historial de datos para destacar anuncios de manera más efectiva.
 
-Crea un programa de lealtad con bonificaciones por uso frecuente de Wallapop PRO.
+- Casos de Éxito Localizados: Comparte casos de éxito de concesionarios similares que han mejorado sus ventas con Wallapop PRO.
 
-Ofrece períodos de prueba gratuitos o tarifas iniciales reducidas para nuevos concesionarios
+- Crea un programa de lealtad con bonificaciones por uso frecuente de Wallapop PRO.
 
-Implementa alertas automatizadas para sugerir ajustes de precios y destacar anuncios basados en datos recientes.
+- Ofrece períodos de prueba gratuitos o tarifas iniciales reducidas para nuevos concesionarios
+
+- Implementa alertas automatizadas para sugerir ajustes de precios y destacar anuncios basados en datos recientes.
 
