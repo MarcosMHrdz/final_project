@@ -162,3 +162,10 @@ La importancia de las características sugiere que "location.postal_code", "km",
 
 - Implementa alertas automatizadas para sugerir ajustes de precios y destacar anuncios basados en datos recientes.
 
+### Recursos útiles para ver
+
+- [Codigo Pyton](https://github.com/MarcosMHrdz/final_project/blob/master/src/main.ipynb)
+
+- [Dashboard Power BI](https://github.com/MarcosMHrdz/final_project/blob/master/src/wallapop.pbix)
+
+- [Presentacion Power Point](https://github.com/MarcosMHrdz/final_project/blob/master/src/Mejora%20del%20%C3%8Dndice%20de%20Destacados.pptx)
